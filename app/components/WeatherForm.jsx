@@ -12,7 +12,7 @@ onFormSubmit:function(e){
     return(
       <div>
         <form onSubmit ={this.onFormSubmit}>
-          <input type="text" ref="location" placeholder="Get city name"/>
+          <input type="search" ref="location" placeholder="Get city name"/>
           <button className="button expanded hollow">Get Weather</button>
         </form>
       </div>
